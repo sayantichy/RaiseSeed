@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .thank-you-container {
+            text-align: center;
+        }
+
+        .thank-you-container h1 {
+            font-size: 4rem;
+            color: #4CAF50;
+            margin: 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .thank-you-container p {
+            font-size: 1.5rem;
+            color: #333;
+            animation: slideUp 1.5s ease-in-out;
+        }
+
+        .thank-you-container .checkmark {
+            font-size: 5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Button styling */
+        .thank-you-container button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .thank-you-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-container">
+        <div class="checkmark">✔</div>
+        <h1>Thank You!</h1>
+        <p>Your transaction was successful. We truly appreciate your support!</p>
+        <button onclick="redirectToHome()">Go Back to Homepage</button>
+    </div>
+
+    <script>
+        function redirectToHome() {
+            window.location.href = "x2.php";  // Replace with the actual homepage URL
+        }
+    </script>
+
+</body>
+</html>
