@@ -37,6 +37,7 @@ cd crowdfunding-platform
 ## 🌱Database Setup:
 
 - Create a MySQL database and import the SQL scripts in the sql/ folder to set up the necessary tables.
+- upload the raiseseed folder in xampp/htdocs
 - Update the config.php file with your MySQL database credentials.
 - Run the Application:
 
