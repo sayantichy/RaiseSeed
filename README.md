@@ -2,11 +2,13 @@
 A simple web-based crowdfunding platform that allows users to create campaigns, donate to campaigns, and track fundraising progress. Built using PHP, MySQL, HTML, and CSS.
 
 ## 🌱Features
- ->User Registration and Authentication: Users can sign up and log in to support their favorite campaigns.
- ->Campaign Creation: Users can create new campaigns specifying the goal, location, target amount, and description.
- ->Donation Support: Registered users can donate to any campaign.
- ->Progress Tracking: Campaigns display the target amount and the amount raised so far with a progress bar.
- ->User Dashboard: Users can view their personal details, the campaigns they have supported, and the amounts they have donated.
+
+ - User Registration and Authentication: Users can sign up and log in to support their favorite campaigns.
+ - Campaign Creation: Users can create new campaigns specifying the goal, location, target amount, and description.
+ - Donation Support: Registered users can donate to any campaign.
+ - Progress Tracking: Campaigns display the target amount and the amount raised so far with a progress bar.
+ - User Dashboard: Users can view their personal details, the campaigns they have supported, and the amounts they have donated.
+   
 ## 🌱Project Structure
 
 ![Screenshot 2024-09-23 230359](https://github.com/user-attachments/assets/c93e6613-7aeb-40e8-9580-26ca6c6bc8f1)
