@@ -34,7 +34,7 @@ A simple web-based crowdfunding platform that allows users to create campaigns, 
 ## 🌱Installation
 Clone the repository:
 
-git clone https://github.com/your-username/crowdfunding-platform.git
+git clone https://github.com/sayantichy/RaiseSeed.git
 cd crowdfunding-platform
 ## 🌱Database Setup:
 
