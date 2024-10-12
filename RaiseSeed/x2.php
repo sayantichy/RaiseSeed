@@ -143,7 +143,7 @@
 </div>
 <!-- Campaign Grid -->
 <div class="w3-container w3-padding-64">
-    <h2 class="w3-center"><a href="champs.php">Popular Campaigns</a></h2>
+    <h2 class="w3-center"><a href="champ.php">Popular Campaigns</a></h2>
     <div class="campaign-grid">
         <div class="campaign-card">
             <img src="assests/campaign1.jpg" alt="Campaign Image">
