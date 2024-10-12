@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,14 +19,12 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            
         }
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 20px;
-            
         }
         .header-buttons {
             display: flex;
@@ -131,8 +128,9 @@
     <div class="header">
         <h1>RaiseSeed</h1>
         <div class="header-buttons">
-            <a href="signin.php">Sign In</a>
-            <a href="signup.php">Sign Up</a>
+            <a href="champ.php">Campaigns</a>
+            <a href="dashboard.php">Dashboard</a>
+            <a href="logout.php">Sign Out</a>
         </div>
     </div>
 
@@ -140,7 +138,7 @@
     <div class="hero-content">
         <h1>Support Innovative Ideas on RaiseSeed</h1>
         <p>Join us in funding the future</p>
-        <button class="w3-button w3-black w3-large"><a href="support.php">Support Now</a></button>
+        <button class="w3-button w3-black w3-large"><a href="support.php" style="color: white;">Support Now</a></button>
     </div>
 </div>
 <!-- Campaign Grid -->
@@ -149,7 +147,6 @@
     <div class="campaign-grid">
         <div class="campaign-card">
             <img src="assests/campaign1.jpg" alt="Campaign Image">
-    <h2 class="w3-center"></h2>
             <h3><a href="campaing.php">Nourish Our Neighbors</a></h3>
             <p>$5,000 raised of $10,000 goal</p>
             <div class="progress-bar">
