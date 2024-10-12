@@ -140,20 +140,15 @@ $support_result = $stmt_support->get_result();
                     <?php
                     if ($support_result->num_rows > 0) {
                         while ($row = $support_result->fetch_assoc()) {
-                            while ($row = $support_result->fetch_assoc()) {
-                                echo "<tr>";
-                                echo "<td>" . $row['goal'] . "</td>";
-                                echo "<td>" . $row['location'] . "</td>";
-                                echo "<td>$" . $row['amount'] . "</td>";
-                                echo "<td><button class='support-button'> Support More</button></td>"; // You can link the button to support more
-                                echo "</tr>";
-                            }
-                        }
-                    } else {
-                        echo "<tr><td colspan='4'>You have not supported any campaigns yet.</td></tr>";
-                    }
-                    ?>
-                </tbody>
+                            echo "<tr>";
+                            echo "<td>" . $row['goal'] . "</td>";
+                            echo "<td>" . $row['location'] . "</td>";
+                            echo "<td>$" . $row['amount'] . "</td>";
+                            echo "<td><button class='support-button'><a href = support.php> Support More</a></button></td>"; 
+                            echo "</tr>";}
+                        } else {
+                            echo "<tr><td colspan='4'>You have not supported any campaigns yet.</td></tr>";}
+                            ?></tbody>
             </table>
         </div>
     </div>
